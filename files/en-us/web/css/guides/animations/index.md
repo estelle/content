@@ -245,6 +245,8 @@ Click "Play" in the example above to see or edit the code for the animation in t
 - {{cssxref("animation-timeline")}}
 - {{cssxref("animation-timing-function")}}
 
+The CSS animations module level 2 also introduces the `animation-composition`, `animation-delay-end`, and `animation-delay-start` properties. Currently, no browsers support these features.
+
 ### At-rules and descriptors
 
 - {{cssxref("@keyframes")}}
