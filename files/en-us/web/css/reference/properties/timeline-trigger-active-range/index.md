@@ -122,8 +122,11 @@ When multiple `timeline-trigger-active-range` and `timeline-trigger-name` values
 Consider these declarations:
 
 ```css
-timeline-trigger-name: --trigger1, --trigger2, --trigger3, --trigger4, --trigger5;
-timeline-trigger-active-range: cover, contain 100px contain 90%;
+timeline-trigger-name:
+  --trigger1, --trigger2, --trigger3, --trigger4, --trigger5;
+timeline-trigger-active-range:
+  cover,
+  contain 100px contain 90%;
 ```
 
 In this case, as there are five names but only two ranges, the ranges are cycled, with every odd trigger using the `cover` range and every even numbered trigger using the `contain 100px contain 90%` range.
@@ -359,4 +362,3 @@ After both animations have paused, scroll downward again. The animations both re
 - [Using CSS scroll-triggered animations](/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations)
 - [CSS animation triggers](/en-US/docs/Web/CSS/Guides/Animation_triggers/) module
 - [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
-odule
