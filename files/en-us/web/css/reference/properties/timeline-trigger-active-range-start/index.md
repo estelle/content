@@ -212,6 +212,8 @@ div {
 .animated {
   width: 100px;
   background: orange;
+  place-content: center;
+  text-align: center;
 }
 
 .trigger {
